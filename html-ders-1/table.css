@@ -1,0 +1,94 @@
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse; 
+    border-radius: 10px;
+ 
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+
+caption {
+    caption-side: top;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px ;
+    color: #111;
+}
+
+
+thead th {
+    padding: 12px 15px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: none; 
+    cursor: pointer;
+}
+
+
+tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    border: none; 
+    transition: all 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: #ffdede;          
+    transform: translateY(-2px);         
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.samsungİmg img {
+    width: 80px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+tbody button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+tbody button:hover {
+    background-color: #1e40af;
+}
+.tableicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.tableicon :nth-child(1){
+    color:blue;
+}
+
+.tableicon :nth-child(2){
+    color:green;
+}
+
+.tableicon :nth-child(3){
+    color:red;
+}
