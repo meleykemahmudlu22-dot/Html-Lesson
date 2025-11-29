@@ -1,0 +1,156 @@
+body {
+   
+    background-color: rgb(12, 83, 73);
+}
+
+.webImg {
+    background-image: url("./img/fe6940ea-9c9f-448c-badc-0da401cde2d7.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: center top;
+background-size: 53%;
+    height: 229px;
+    overflow: hidden;
+
+
+
+}
+
+
+
+.navdiv nav ul {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    text-decoration: none;
+    padding: 15px;
+    align-content: center;
+    color: wheat;
+    list-style-type: none;
+}
+
+.navdiv nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navTexts ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+.navTexts ul li {
+    margin-bottom: 4px;
+}
+
+
+.navdiv {
+    width: 946px;
+
+    margin: 0 auto;
+    background-color: rgb(10, 73, 63);
+}
+
+.textContent ul {
+    list-style: "x";
+}
+
+.TextSection {
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 53%;
+    margin: 0 auto;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.twosection {
+
+    width: 700px;
+    color: white;
+}
+
+.navTexts ul li a {
+    color: white;
+    padding: 10px 10px;
+}
+
+.navTexts ul {
+    padding: 10px;
+}
+
+.textContent {
+    color: wheat;
+    width: 400px;
+}
+
+.division {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+
+}
+
+.write button {
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.other button {
+    cursor: pointer;
+    padding: 6px 20px;
+
+}
+
+.other button:hover {
+    color: white;
+    background-color: green;
+}
+
+.write button:hover {
+    color: white;
+    background-color: green;
+}
+
+.my-hr {
+    height: 10px;
+}
+
+.loremtext {
+    /* background-color: blue; */
+    width: 256px;
+}
+
+.subText {
+    width: 260px;
+  
+}
+
+.otherparagrap {
+    width: 256px !important;
+  
+}
+.footerText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 100%; */
+   
+}
+.footerText hr{
+    width: 953px;
+    /* height: 0.1px; */
+}
+
+.footerText p{
+    color: white;
+}
